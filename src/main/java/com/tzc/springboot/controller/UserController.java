@@ -101,7 +101,7 @@ public class UserController {
     
     @GetMapping("/hello")
     public Response<String> hello() {
-        return Response.ok("hello");
+        return Response.ok("hihi");
     }
 
 }
