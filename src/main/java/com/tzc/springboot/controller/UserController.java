@@ -98,5 +98,10 @@ public class UserController {
         List<User> userList = userService.selectByIds(list);
         return Response.ok(userList);
     }
+    
+    @GetMapping("/hello")
+    public Response<String> hello() {
+        return Response.ok("hello");
+    }
 
 }
